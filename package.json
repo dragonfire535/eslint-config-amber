@@ -1,0 +1,38 @@
+{
+	"name": "eslint-config-amber",
+	"version": "1.0.0",
+	"description": "ESLint shareable config.",
+	"main": "index.js",
+	"scripts": {
+		"test": "npm run lint",
+		"lint": "eslint . --ext .js --ext .json",
+		"start": "node index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dragonfire535/eslint-config-amber.git"
+	},
+	"keywords": [
+		"eslint",
+		"eslint-config",
+		"eslintconfig",
+		"lint",
+		"linter"
+	],
+	"author": "dragonfire535 <danielbodendahl@gmail.com>",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/dragonfire535/eslint-config-amber/issues"
+	},
+	"homepage": "https://github.com/dragonfire535/eslint-config-amber#readme",
+	"devDependencies": {
+		"eslint-plugin-json": "^1.2.0"
+	},
+	"peerDependencies": {
+		"eslint": "^4.19.0"
+	},
+	"eslintConfig": {
+		"extends": "amber",
+		"plugins": ["json"]
+	}
+}

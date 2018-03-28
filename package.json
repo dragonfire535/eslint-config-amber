@@ -32,7 +32,7 @@
 		"eslint": "^4.19.0"
 	},
 	"eslintConfig": {
-		"extends": "amber",
+		"extends": "./index.js",
 		"plugins": ["json"]
 	}
 }

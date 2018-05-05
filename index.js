@@ -5,8 +5,7 @@ module.exports = {
 		es6: true
 	},
 	parserOptions: {
-		ecmaVersion: 2017,
-		sourceType: 'module'
+		ecmaVersion: 2018
 	},
 	rules: {
 		'accessor-pairs': 'error',

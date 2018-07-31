@@ -52,7 +52,7 @@ module.exports = {
 		'max-nested-callbacks': ['error', { max: 4 }],
 		'max-statements-per-line': ['error', { max: 2 }],
 		'new-cap': 'error',
-		'newline-per-chained-call': ['error', { ignoreChainWithDepth: 3 }],
+		'newline-per-chained-call': ['error', { ignoreChainWithDepth: 4 }],
 		'no-array-constructor': 'error',
 		'no-buffer-constructor': 'error',
 		'no-catch-shadow': 'error',

@@ -89,6 +89,7 @@ module.exports = {
 		'no-mixed-requires': 'error',
 		'no-multiple-empty-lines': ['error', { max: 2, maxEOF: 1, maxBOF: 0 }],
 		'no-multi-spaces': 'error',
+		'no-negated-condition': 'error',
 		'no-new': 'error',
 		'no-new-func': 'error',
 		'no-new-object': 'error',

@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-amber",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"description": "ESLint shareable config.",
 	"main": "index.js",
 	"scripts": {
@@ -26,10 +26,10 @@
 	},
 	"homepage": "https://github.com/dragonfire535/eslint-config-amber#readme",
 	"devDependencies": {
-		"eslint-plugin-json": "^1.2.1"
+		"eslint-plugin-json": "^2.0.1"
 	},
 	"peerDependencies": {
-		"eslint": "^5.6.1"
+		"eslint": "^6.7.2"
 	},
 	"eslintConfig": {
 		"extends": "./index.js",

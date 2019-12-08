@@ -147,6 +147,7 @@ module.exports = {
 		'prefer-template': 'error',
 		'quote-props': ['error', 'as-needed'],
 		quotes: ['error', 'single', { allowTemplateLiterals: true }],
+		'require-atomic-updates': 'off',
 		'rest-spread-spacing': 'error',
 		semi: 'error',
 		'semi-spacing': 'error',

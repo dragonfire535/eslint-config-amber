@@ -7,6 +7,9 @@ module.exports = {
 	parserOptions: {
 		ecmaVersion: 2020
 	},
+	globals: {
+		BigInt: true
+	},
 	rules: {
 		'accessor-pairs': 'error',
 		'array-bracket-spacing': 'error',
